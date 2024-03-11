@@ -16,7 +16,10 @@ for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-Text…
+This assignment is focused on white box testing, a technique that evaluates the internal structure of an application. Unlike black box testing, the testers have access to the source code and involves actually understanding and analyzing the internal logic, design and implemenation of the software. Testers typically have access to source code, architecture diagrams, and other documentation of the software being tested, which allows testers to create test cases based on the internal logic of the application. Code coverage is also important in white box testing, which helps to measure the extent of which the source code has been tested. It provides insight into which parts of the code has and hasn't been tested by the test cases and includes metrics such as function coverage, statement coverage, decision coverage, condition coverage and path coverage. 
+
+In this assignment, the students used EclEmma as the code coverage tool to measure test adequacy. This assignment is a continuation of assigment #2, but now the students have access to the internal code, whereas assignment #2 was focused on black box testing. This assignment uses JFreeChart, an open source Java framework for chart calculation, creation, and display, as the system under test. 
+
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
