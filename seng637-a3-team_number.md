@@ -335,16 +335,39 @@ CONS
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+**Advantages of Requirements-Based Test Generation:**
+
+ Alignment with User Expectations: This approach ensures that tests are directly linked to what the system is supposed to do, focusing on user requirements and ensuring the software meets its intended purposes.
+ Comprehensive Testing of Functionalities: By focusing on requirements, each feature is tested to see if it behaves as expected under various conditions, contributing to thorough functional coverage.
+ Facilitates Communication: Requirements-based tests can be easily understood by stakeholders, including non-technical ones, facilitating better communication and understanding of the testing process and outcomes.
+
+**Disadvantages of Requirements-Based Test Generation:**
+
+ May Miss Unspecified Behaviors: This method might not uncover errors in the system that occur outside the defined requirements, potentially leaving parts of the code untested.
+ Difficulty in Identifying All Requirements: In complex systems, it can be challenging to ensure all requirements are identified and correctly understood before test generation.
+
+**Advantages of Coverage-Based Test Generation:**
+
+ Comprehensive Examination of Code: Coverage-based testing aims to execute every part of the source code, potentially uncovering errors that requirements-based testing might miss.
+ Objective Measurement: Provides quantitative data on how much of the code has been tested, offering an objective measure of test suite completeness.
+ Identifies Dead Code: Helps in identifying unused or unreachable code, which can then be removed or refactored.
+
+**Disadvantages of Coverage-Based Test Generation:**
+
+ May Not Align with User Needs: High coverage does not necessarily mean that all user requirements are tested or that the application will meet user expectations.
+ Can Lead to Overemphasis on Coverage Metrics: Developers might focus more on achieving high coverage numbers rather than on the quality or relevance of tests, potentially leading to a false sense of security.
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-Text…
+ Our team approached this assignment with a strategy to ensure equal participation and contribution from all members. We divided the tasks based on the main sections of the assignment, ensuring that each person had a clear responsibility but also engaged with other parts of the project for a well-rounded understanding. Regular virtual meetings were held to discuss progress, tackle challenges together, and ensure consistency across our work. This collaborative approach not only distributed the workload evenly but also fostered a supportive learning environment where we could share insights and feedback in real-time. The use of shared documents and a code repository facilitated smooth collaboration, allowing us to integrate our individual contributions seamlessly.
+
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+ Throughout this assignment, we encountered several challenges that offered valuable learning experiences. One significant challenge was getting accustomed to the code coverage tools and interpreting their metrics correctly. Initially, aligning our test cases with the coverage goals was more difficult than anticipated, leading us to revisit and revise our testing strategies multiple times. This process taught us the importance of iterative development and continuous testing, emphasizing that test adequacy goes beyond reaching numerical coverage targets.
+
+ Another lesson learned was the critical role of communication and flexibility in team projects. Despite our equal division of work, we realized that some tasks required more effort than others, prompting us to adjust our workload distribution dynamically. This adaptability ensured that no team member felt overwhelmed and that our project progressed smoothly.
 
 # 10 Comments/feedback on the lab itself
 
-Text…
+ Overall, this assignment was a highly educational experience that provided us with a deeper understanding of software testing principles. We appreciated the practical emphasis on using code coverage tools, as it not only enhanced our technical skills but also our analytical abilities in evaluating test suite adequacy
